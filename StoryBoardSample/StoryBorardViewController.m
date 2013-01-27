@@ -11,19 +11,10 @@
 
 @interface StoryBorardViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *aTextField;
-@property (strong, nonatomic) CorrectStringEnteredViewController *cViewController; 
 
 @end
 
 @implementation StoryBorardViewController
-
-- (CorrectStringEnteredViewController *)cViewController
-{
-    if (!_cViewController) {
-        _cViewController = [[CorrectStringEnteredViewController alloc] init];
-    }
-    return _cViewController; 
-}
 
 - (IBAction)submitPressed:(UIButton *)sender
 {
