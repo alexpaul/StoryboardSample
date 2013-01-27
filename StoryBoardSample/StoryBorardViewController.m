@@ -11,7 +11,6 @@
 
 @interface StoryBorardViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *aTextField;
-
 @end
 
 @implementation StoryBorardViewController
